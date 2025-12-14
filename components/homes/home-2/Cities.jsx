@@ -13,11 +13,10 @@ export default function Cities() {
           <div className="col-12">
             <div className="heading-section mb-46 text-center">
               <h2 className="title split-text effect-right">
-                <SplitTextAnimation text="Explore The Neighborhoods" />
+                <SplitTextAnimation text="Popular Townships" />
               </h2>
               <p className="text-1 split-text split-lines-transform">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                vel lobortis justo
+                South Africa’s most active rental hotspots.
               </p>
             </div>
             <Swiper

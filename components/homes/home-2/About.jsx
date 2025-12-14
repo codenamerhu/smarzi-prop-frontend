@@ -10,11 +10,11 @@ export default function About() {
             <div className="content relative z-5">
               <div className="heading-section mb-48">
                 <h2 className="title split-text effect-right">
-                  Trusted By <span>100</span> Million Buyers
+                  Why Tenants Love Smarzi
                 </h2>
                 <p className="text-1 split-text split-lines-transform">
-                  We connect you directly to the person that knows the most
-                  about a property for sale, the listing agent
+                  Discover smarter tools that make your rental search faster, safer, and stress-free. 
+                  Everything you need to find the right place—right in the palm of your hand.
                 </p>
               </div>
               <div className="tf-grid-layout sm-col-2">
@@ -39,16 +39,15 @@ export default function About() {
                       </svg>
                     </div>
                     <h5 className="title">
-                      <a href="#">Explore Great Neighborhoods</a>
+                      <a href="#">Smart Filters & Instant Search</a>
                     </h5>
                   </div>
                   <p className="text-1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    sollicitudin ipsum eu massa
+                    Find exactly what you want - by price, location, amenities, and more.
                   </p>
-                  <a href="#" className="tf-btn-link color-1">
+                  {/* <a href="#" className="tf-btn-link color-1">
                     <span> Learn More </span>
-                  </a>
+                  </a> */}
                 </div>
                 <div className="icons-box style-1 effec-icon">
                   <div className="heading">
@@ -75,16 +74,15 @@ export default function About() {
                       </svg>
                     </div>
                     <h5 className="title">
-                      <a href="#">Find the Best Agent for You</a>
+                      <a href="#">Chat & Book Securely</a>
                     </h5>
                   </div>
                   <p className="text-1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    sollicitudin ipsum eu massa
+                    Message landlords or agents directly in-app and lock down your place with trusted booking tools.
                   </p>
-                  <a href="#" className="tf-btn-link color-1">
+                  {/* <a href="#" className="tf-btn-link color-1">
                     <span> Learn More </span>
-                  </a>
+                  </a> */}
                 </div>
                 <div className="icons-box style-1 effec-icon">
                   <div className="heading">
@@ -286,16 +284,15 @@ export default function About() {
                       </svg>
                     </div>
                     <h5 className="title">
-                      <a href="#">Find highly rated apartments</a>
+                      <a href="#">Real-Time Availability</a>
                     </h5>
                   </div>
                   <p className="text-1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    sollicitudin ipsum eu massa
+                    No surprises. If it’s on Smarzi, it’s open, available, and ready for you.
                   </p>
-                  <a href="#" className="tf-btn-link color-1">
+                  {/* <a href="#" className="tf-btn-link color-1">
                     <span> Learn More </span>
-                  </a>
+                  </a> */}
                 </div>
                 <div className="icons-box style-1 effec-icon">
                   <div className="heading">
@@ -314,16 +311,15 @@ export default function About() {
                       </svg>
                     </div>
                     <h5 className="title">
-                      <a href="#">Search Recent Property Sales</a>
+                      <a href="#">Verified Listings</a>
                     </h5>
                   </div>
                   <p className="text-1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    sollicitudin ipsum eu massa
+                    Every property is checked before going live, so you browse with confidence.
                   </p>
-                  <a href="#" className="tf-btn-link color-1">
+                  {/* <a href="#" className="tf-btn-link color-1">
                     <span> Learn More </span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -334,10 +330,10 @@ export default function About() {
           data-wow-duration="2s"
         >
           <Image
-            alt=""
+            alt="Tenants happily moved in their bachelor flat"
             width={576}
             height={766}
-            src="/images/items/section-trusted-1.png"
+            src="/images/items/features.jpg"
           />
         </div>
         <div
@@ -346,10 +342,10 @@ export default function About() {
           data-wow-delay="0.3s"
         >
           <Image
-            alt=""
+            alt="Rental buildings"
             width={379}
             height={687}
-            src="/images/items/section-trusted-2.png"
+            src="/images/items/buildings.jpg"
           />
         </div>
       </div>

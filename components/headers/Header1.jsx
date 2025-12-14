@@ -46,7 +46,7 @@ export default function Header1({ parentClass = "header" }) {
                         />
                       </svg>
                     </div>
-                    <p>(603) 555-0123</p>
+                    <p>067 555 0123</p>
                   </div>
                   <DashboardNav />
                   <div className="btn-add">

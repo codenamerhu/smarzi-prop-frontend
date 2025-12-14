@@ -10,18 +10,16 @@ export default function Facts() {
           <div className="col-12">
             <div className="heading-section text-center">
               <h2 className="title text_white split-text effect-right">
-                <SplitTextAnimation text="Market Your Property With" />
-                <br />
-                <SplitTextAnimation text="Realty" />
+                <SplitTextAnimation text="Smarzi Winning Stats" />
               </h2>
-              <p
+              {/* <p
                 className="text-1 text-color3 wow animate__fadeInUp animate__animated"
                 data-wow-duration="1.5s"
               >
                 No obligation market appraisal for your property today. Our
                 virtual options are <br />
                 still available if you prefer
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="tf-grid-layout-2 lg-col-4">

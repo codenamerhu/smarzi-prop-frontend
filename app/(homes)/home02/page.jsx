@@ -1,5 +1,6 @@
 import ThemeController from "@/components/common/ThemeController";
 import Footer1 from "@/components/footers/Footer1";
+import Header10 from "@/components/headers/Header10";
 import Header2 from "@/components/headers/Header2";
 import About from "@/components/homes/home-2/About";
 import Agents from "@/components/homes/home-2/Agents";
@@ -34,10 +35,9 @@ export default function page() {
             <Agents />
             <Cities />
             <Testimonials />
-
             <Banner />
-            <Brands />
-            <Blogs />
+            {/* <Brands />
+            <Blogs /> */}
           </div>
           <Footer1 logo="/images/logo/logo-3@2x.png" />
         </div>

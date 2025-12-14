@@ -17,8 +17,7 @@ export default function Categories() {
                 <SplitTextAnimation text="Property Type" />
               </h2>
               <p className="text-1 split-text split-lines-transform">
-                Thousands of luxury home enthusiasts just like you visit our
-                website.
+                Choose the Pozi That Fits Your Vibe
               </p>
             </div>
             <div

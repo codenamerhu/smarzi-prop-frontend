@@ -189,9 +189,10 @@
     }
   }
   &.home02 {
-    background-image: url(../images/section/page-title-2.jpg);
+    background-image: url(../images/section/main-hero.jpg);
     padding: 232px 0 294px;
     background-size: cover;
+    background-position: bottom;
     background-attachment: fixed;
     .heading-title {
       margin-bottom: 80px;
@@ -705,7 +706,7 @@
 /*section-realty
 ===============================================================================*/
 .section-realty {
-  background-image: url(../images/section/section-realty.jpg);
+  background-image: url(../images/section/dbn-horizon.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -1223,7 +1224,7 @@
     .wg-appraisal {
       .content {
         &::after {
-          background-image: url(../images/section/cta-3.png);
+          // background-image: url(../images/section/cta-3.png);
         }
       }
     }

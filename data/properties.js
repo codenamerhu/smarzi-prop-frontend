@@ -11,7 +11,7 @@ export const properties = [
     long: -73.994601,
     lat: 40.711536,
     categories: ["Farm house", "House", "Villas"],
-    cities: ["Michigan", "Kentucky", "Nebraska", "Colorado"],
+    cities: ["Tembisa", "Soweto", "Khayelitsha", "Soshanguve"],
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const properties = [
     long: -74.016245,
     lat: 40.710885,
     categories: ["Apartments", "House", "Villas"],
-    cities: ["Michigan", "Oklahome", "Nebraska", "Colorado"],
+    cities: ["Tembisa", "Umlazi", "Khayelitsha", "Shoshanguve"],
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ export const properties = [
     long: -74.010316,
     lat: 40.715504,
     categories: ["Apartments", "Farm house", "Villas"],
-    cities: ["Michigan", "Oklahome", "Kentucky", "Colorado"],
+    cities: ["Tembisa", "Umlazi", "Soweto", "Shoshanguve"],
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ export const properties = [
     long: -74.010316,
     lat: 40.726204,
     categories: ["Apartments", "House", "Villas"],
-    cities: ["Michigan", "Oklahome", "Kentucky", "Nebraska"],
+    cities: ["Tembisa", "Umlazi", "Soweto", "Khayelitsha"],
   },
   {
     id: 5,
@@ -65,7 +65,7 @@ export const properties = [
     sqft: "4,043",
     price: 8600,
     categories: ["Apartments", "Farm house"],
-    cities: ["Michigan", "Oklahome"],
+    cities: ["Tembisa", "Umlazi"],
   },
   {
     id: 6,
@@ -77,7 +77,7 @@ export const properties = [
     sqft: "4,043",
     price: 8600,
     categories: ["Farm house", "House", "Villas"],
-    cities: ["Michigan", "Nebraska", "Colorado"],
+    cities: ["Tembisa", "Khayelitsha", "Shoshanguve"],
   },
 ];
 

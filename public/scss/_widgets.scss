@@ -2839,7 +2839,9 @@
   &.style-2 {
     margin-top: 0;
     .content {
-      background-image: url(../images/section/section-appraisal.jpg);
+      background-position: center;
+      background-size: cover;
+      background-image: url(../images/section/reals-skyline.jpg);
       &::after {
         display: none;
       }

@@ -14,8 +14,8 @@ export default function Agents() {
                 <SplitTextAnimation text="Choose Your Local Agent" />
               </h2>
               <p className="text-1 split-text split-lines-transform">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                vel lobortis justo
+                Smarzi connects you with agents who know your township street-for-street. 
+
               </p>
             </div>
             <div className="tf-grid-layout-2 md-col-4 mb-48">
@@ -80,10 +80,9 @@ export default function Agents() {
               ))}
             </div>
             <p className="text-center text-1 mb-48">
-              Explore Property agents are here to help with all your buying,
-              renting and selling goals. <br />
-              Find the home of your dreams with an expert you can trust.
-              <a href="#">Let’s chat</a>
+              Get help with viewing bookings, rental applications, and move-in support — handled by trusted 
+                locals who understand your needs.
+              <a href="#"> Let’s chat</a>
             </p>
             <a href="#" className="tf-btn bg-color-primary pd-3 fw-6 mx-auto">
               Find your location agent <i className="icon-MagnifyingGlass" />
