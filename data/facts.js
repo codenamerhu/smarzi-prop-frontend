@@ -1,8 +1,8 @@
 export const counters = [
-  { value: 26, suffix: "+", text: "Years of Business", class: "style-1-1" },
-  { value: 4130, suffix: "", text: "Properties sold", class: "style-1-2" },
-  { value: 98, suffix: "%", text: "Happy customers", class: "style-1-3" },
-  { value: 1780, suffix: "", text: "Years of Business", class: "style-1-4" },
+  { value: 11000, suffix: "+", text: "Monthly searches", class: "style-1-1" },
+  { value: 1000, suffix: "+", text: "Verified Listings", class: "style-1-2" },
+  { value: 92, suffix: "%", text: "Match satisfaction", class: "style-1-3" },
+  { value: 4, suffix: "x", text: "Faster bookings", class: "style-1-4" },
 ];
 
 export const counters2 = [

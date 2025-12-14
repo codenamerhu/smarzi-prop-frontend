@@ -11,11 +11,11 @@ export default function Properties() {
   const [activeItem, setActiveItem] = useState("Michigan");
   const [filtered, setFiltered] = useState(properties);
   const items = [
-    { name: "Michigan", listings: "10 Listing" },
-    { name: "Oklahome", listings: "9 Listing" },
-    { name: "Kentucky", listings: "10 Listing" },
-    { name: "Nebraska", listings: "20 Listing" },
-    { name: "Colorado", listings: "9 Listing" },
+    { name: "Tembisa", listings: "10 Listing" },
+    { name: "Umlazi", listings: "9 Listing" },
+    { name: "Soweto", listings: "10 Listing" },
+    { name: "Khayelitsha", listings: "20 Listing" },
+    { name: "Soshanguve", listings: "9 Listing" },
   ];
   useEffect(() => {
     setFiltered(properties.filter((elm) => elm.cities.includes(activeItem)));
@@ -32,11 +32,10 @@ export default function Properties() {
           <div className="col-12">
             <div className="heading-section text-center mb-48">
               <h2 className="title split-text effect-right">
-                <SplitTextAnimation text="Popular Searches" />
+                <SplitTextAnimation text="Explore Popular Townships" />
               </h2>
               <p className="text-1 split-text split-lines-transform">
-                Thousands of luxury home enthusiasts just like you visit our
-                website.
+                Click to search in South Africa’s most active rental hotspots.
               </p>
             </div>
             <div className="widget-tabs style-2">

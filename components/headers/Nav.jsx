@@ -19,14 +19,19 @@ export default function Nav() {
         : menu.href.split("/")[1] === pathname.split("/")[1]
     );
   return (
-    <>
-      <li
+    <> 
+    <li className={"/home02" == pathname ? "current-menu" : ""}>
+        <Link href={`/home02`}>Home</Link>
+      </li>
+    {/* <a href="/home02">Home</a> */}
+
+      {/* <li
         className={`has-child ${
           homes.some((elm) => elm.href == pathname) ? "current-menu" : ""
         }`}
-      >
-        <a href="#">Home</a>
-        <ul className="submenu">
+      > */}
+       
+        {/* <ul className="submenu">
           {homes.map((item, index) => (
             <li
               key={index}
@@ -35,8 +40,8 @@ export default function Nav() {
               <Link href={item.href}>{item.label}</Link>
             </li>
           ))}
-        </ul>
-      </li>
+        </ul> */}
+      {/* </li> */}
       <li
         className={`has-child style-2 ${
           isParentActive(propertyLinks) ? "current-menu" : ""
@@ -108,7 +113,7 @@ export default function Nav() {
           ))}
         </ul>
       </li>
-      <li
+      {/* <li
         className={`has-child ${
           isParentActive(blogMenu) ? "current-menu" : ""
         } `}
@@ -128,7 +133,7 @@ export default function Nav() {
             </li>
           ))}
         </ul>
-      </li>
+      </li> */}
       <li className={"/contact" == pathname ? "current-menu" : ""}>
         <Link href={`/contact`}>Contact</Link>
       </li>

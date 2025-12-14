@@ -12,14 +12,13 @@ export const footerData = [
     className: "style-2",
   },
   {
-    title: "Popular house",
+    title: "Popular Properties",
     links: [
-      { text: "#Penthouses", href: "/property-gird" },
-      { text: "#Villa", href: "/property-gird" },
-      { text: "#Smart home", href: "/property-gird" },
-      { text: "#Apartments", href: "/property-gird" },
-      { text: "#Office", href: "/property-gird" },
-      { text: "#Bungalow", href: "/property-gird" },
+      { text: "#Backrooms", href: "/property-gird" },
+      { text: "#Bachelors", href: "/property-gird" },
+      { text: "#Flats", href: "/property-gird" },
+      { text: "#Houses", href: "/property-gird" },
+      { text: "#BnB's", href: "/property-gird" },
     ],
   },
   {

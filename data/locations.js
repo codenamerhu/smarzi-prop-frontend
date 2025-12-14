@@ -1,40 +1,35 @@
 export const locations = [
   {
-    imageSrc: "/images/section/location-9.jpg",
+    imageSrc: "/images/section/tembisa-thumb.jpg",
     alt: "",
-    city: "New York",
+    city: "Tembisa",
     propertiesCount: "2.491 Properties",
   },
   {
-    imageSrc: "/images/section/location-16.jpg",
+    imageSrc: "/images/section/soweto-thumb.png",
     alt: "",
-    city: "New York",
+    city: "Soweto",
     propertiesCount: "2.491 Properties",
   },
   {
-    imageSrc: "/images/section/location-17.jpg",
+    imageSrc: "/images/section/umlazi-thumb.jpg",
     alt: "",
-    city: "New York",
+    city: "Umlazi",
     propertiesCount: "2.491 Properties",
   },
   {
-    imageSrc: "/images/section/location-18.jpg",
+    imageSrc: "/images/section/Khayeltsha-thumb.jpg",
     alt: "",
-    city: "New York",
+    city: "Khayelitsha",
     propertiesCount: "2.491 Properties",
   },
   {
-    imageSrc: "/images/section/location-19.jpg",
+    imageSrc: "/images/section/sosha-thumb.jpg",
     alt: "",
-    city: "New York",
+    city: "Soshanguve",
     propertiesCount: "2.491 Properties",
   },
-  {
-    imageSrc: "/images/section/location-9.jpg",
-    alt: "",
-    city: "New York",
-    propertiesCount: "2.491 Properties",
-  },
+  
 ];
 
 export const locations2 = [
